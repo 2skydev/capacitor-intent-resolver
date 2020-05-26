@@ -2,7 +2,7 @@
 
 When running an external app in the capacitor app, make it executable
 
-> Android requires additional plugin settings in MainActivity.java after installation
+> Android requires additional plugin settings in `MainActivity.java` after installation
 >
 > Please refer to the explanation below
 
