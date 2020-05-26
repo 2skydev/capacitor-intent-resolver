@@ -1,7 +1,7 @@
 {
   "name": "capacitor-intent-resolver",
   "version": "0.0.1",
-  "description": "Run apps if they're viable",
+  "description": "Run if there is an executable app",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
   "scripts": {
@@ -10,7 +10,11 @@
     "watch": "tsc --watch",
     "prepublishOnly": "npm run build"
   },
-  "author": "2sky",
+  "author": {
+    "name": "2sky",
+    "email": "2skydev@gmail.com",
+    "url": "https://github.com/2skydev"
+  },
   "license": "MIT",
   "dependencies": {
     "@capacitor/core": "latest"

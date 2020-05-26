@@ -2,7 +2,7 @@
   Pod::Spec.new do |s|
     s.name = 'CapacitorIntentResolver'
     s.version = '0.0.1'
-    s.summary = 'Run apps if they're viable'
+    s.summary = 'Run if there is an executable app'
     s.license = 'MIT'
     s.homepage = 'https://github.com/2skydev/capacitor-intent-resolver.git'
     s.author = '2sky'
