@@ -35,7 +35,7 @@ $ npx cap sync
 
 `MainActivity.java`
 ```java
-package com.straw.f850c;
+package com.test.app;
 
 import android.os.Bundle;
 
