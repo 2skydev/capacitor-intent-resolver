@@ -14,6 +14,10 @@ public class CapacitorIntentResolver extends Plugin {
 
     @PluginMethod()
     public Boolean shouldOverrideLoad(Uri url) {
+        if (url.toString().startsWith("http:") || url.toString().startsWith("https:")) {
+            return null;
+        }
+        
         try {
             Intent intent = Intent.parseUri(url.toString(), Intent.URI_INTENT_SCHEME);
             Intent existPackage = getContext().getPackageManager().getLaunchIntentForPackage(intent.getPackage());

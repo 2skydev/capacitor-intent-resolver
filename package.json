@@ -1,6 +1,6 @@
 {
   "name": "capacitor-intent-resolver",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Run if there is an executable app",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
