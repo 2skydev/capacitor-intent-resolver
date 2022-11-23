@@ -1,3 +1,11 @@
+# ❗️ Sorry, we are no longer performing maintenance.
+We recommend that you do not use this plugin.
+
+If you are looking for an issue related to the intent, please check the official document below
+https://capacitorjs.com/docs/plugins/android#presenting-native-screens
+
+<br/>
+
 ## Features
 
 When running an external app in the capacitor app, make it executable
